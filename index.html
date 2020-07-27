@@ -13,11 +13,14 @@
           <p class="title">Compose new Tweet</p>
         </div>
         <div class="post_container">
-          <textarea name="post" id="post_id"></textarea>
+          <textarea name="post" id="post_id" ondrop="return false;"></textarea>
         </div>
         <div class="remain">
           <h4>Content limited to 200 character</h4>
-          <p>Remaining: 100</p>
+          <p>
+            Remaining:
+            <b><span class="remaining" style="color: #1d91d1;"></span></b>
+          </p>
         </div>
       </div>
     </div>
